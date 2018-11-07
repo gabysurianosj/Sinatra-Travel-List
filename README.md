@@ -2,7 +2,7 @@
 
 ![](public/img/new-year-travel.jpg)
 
-My travel list is an application created to keep track of your travel wish list. Inspired by the movie [The Bucket List](https://www.youtube.com/watch?v=vc3mkG21ob4), the app aims to enable its users to add wish destinations and new adventures, and even get inspired by others!
+My travel list is an application created to keep track of your travel wish list. Inspired by the movie [The Bucket List](https://www.youtube.com/watch?v=vc3mkG21ob4) and the developer's love for traveling, the app aims to enable its users to add wish destinations and new adventures, and even get inspired by others!
 
 For more information on how to use the app, watch this [video].
 
