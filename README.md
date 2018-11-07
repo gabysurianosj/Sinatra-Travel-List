@@ -10,11 +10,11 @@ For more information on how to use the app, watch this [video].
 
 1. Clone this repo
 2. In your terminal, run:
-'rake db:migrate'
+`rake db:migrate`
 3. Then in your terminal, run:
-'shotgun'
-4. Then click on "Your server is running at XXX.XXX.XXX.XX:XXXXX"
-5. Create your travel list!
+`shotgun`
+4. Open your browser and copy and paste the # outlined here:`Your server is running at XXX.XXX.XXX.XX:XXXXX`
+5. Create your travel list! 
 
 ## Contributing
 
