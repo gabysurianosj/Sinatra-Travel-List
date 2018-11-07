@@ -1,6 +1,6 @@
 # My-Travel-List
 
-!(public/img/new-year-travel.jpg)
+![](public/img/new-year-travel.jpg)
 
 My travel list is an application created to keep track of your travel wish list. Inspired by the movie [The Bucket List](https://www.youtube.com/watch?v=vc3mkG21ob4), the app aims to enable its users to add wish destinations and new adventures, and even get inspired by others!
 
@@ -10,11 +10,9 @@ For more information on how to use the app, watch this [video].
 
 1. Clone this repo
 2. In your terminal, run:
-```rake db:migrate
-```
+'rake db:migrate'
 3. Then in your terminal, run:
-```shotgun
-```
+'shotgun'
 4. Then click on "Your server is running at XXX.XXX.XXX.XX:XXXXX"
 5. Create your travel list!
 
