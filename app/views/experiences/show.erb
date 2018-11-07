@@ -1,5 +1,5 @@
 <div class="jumbotron">
-  <h1 class="display-3"><%= @experience.description %></h1>
+  <h2 class="display-4"><%= @experience.description %></h2>
   <p class="lead"><strong>Country to Visit:</strong> <a href="/countries/<%= @experience.country.id %>"><%= @experience.country.name %></a></p>
   <% if @experience.user_id == @user.id %>
     <p>From Your Travel List</p>
