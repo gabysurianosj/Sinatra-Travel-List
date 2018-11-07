@@ -1,9 +1,9 @@
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 p, div {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .home-page-bkgd {
