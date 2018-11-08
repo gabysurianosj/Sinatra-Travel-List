@@ -23,3 +23,17 @@ p, div {
    margin-top: -100px;
    margin-left: -200px;
 }
+
+.header h1 {
+    /*z-index: 1;*/
+    position: fixed;
+    width: 77%;
+    margin-top: -10px;
+    height: 50px;
+    background-color: #F9C63B;
+    /*margin-bottom: 10px;*/
+}
+
+.header img {
+  width: 97.5%;
+}
