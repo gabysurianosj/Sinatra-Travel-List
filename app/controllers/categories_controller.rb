@@ -1,14 +1,14 @@
 class CategoriesController < ApplicationController
   before '/categories/*' do
     if !is_logged_in?
-      flash[:login] = "You need to be logged in to performance that action"
+      flash[:login] = "You need to be logged in to performance this action"
       redirect to '/login'
     end
 end
 
   get '/categories' do
     if !is_logged_in?
-      flash[:login] = "You need to be logged in to performance that action"
+      flash[:login] = "You need to be logged in to performance this action"
       redirect to '/login'
     end
     @categories = Category.all.sort_by{|c| c.name}

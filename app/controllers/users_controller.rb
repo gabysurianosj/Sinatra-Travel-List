@@ -13,7 +13,7 @@ class UsersController < ApplicationController
     is_empty?(user_info, 'signup')
 
     if User.find_by(:email => user_info[:email])
-      flash[:account_taken] = "The email you provided is already in our system. Please enter a new email or log in to continue."
+      flash[:account_taken] = "This email already exists. Please enter a new email or log in to continue."
       redirect to '/signup'
     end
 
@@ -47,7 +47,7 @@ class UsersController < ApplicationController
         flash[:password] = "Your password is incorrect"
         redirect to '/login'
       else
-        flash[:no_account] = "There is no account associated with that email address. Please enter a different email or sign up for an account."
+        flash[:no_account] = "There is no account associated with this email address. Please enter a different email or sign up for an account."
         redirect to '/login'
       end
     end
