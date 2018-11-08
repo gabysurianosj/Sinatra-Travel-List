@@ -38,8 +38,14 @@ p, div {
   width: 97.5%;
 }
 
-.content-bkgd {
+.content-bkgd-1 {
   background-image:url('/img/content-bkgd.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-bkgd-2 {
+  background-image:url('/img/mapbw.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -1,23 +1,28 @@
-<h1>Get Inspiration from Others</h1>
-<% if Experience.all.empty? %>
-  <div class="text-center"><p>There are no travel lists - be the first!</p>
-  <p><a class="btn btn-success" style="margin: 20px" href="/experiences/new" role="button">Add a New Experience to my Travel List</a></div>
-<% else %>
-  <div class="row">
-    <a class="btn btn-success" style="margin: 20px" href="/experiences" role="button">< Back to My Travel List</a>
-    <a class="btn btn-info" style="margin: 20px" href="/countries" role="button">View All By Country</a>
-    <a class="btn btn-info" style="margin: 20px" href="/categories" role="button">View All By Category</a>
+<body class="content-bkgd-2">
+  <div class="header">
+  <h1>Get Inspiration from Others</h1>
+  <img src="img/mapbw.jpg" alt="header2" />
   </div>
-<% end %>
-<div class="row">
-  <% Experience.all.each do |e| %>
-    <% unless e.user_id == @user.id %>
-      <div class="card" style="width: 15rem; margin: 20px">
-        <div class="text-center">
-          <div class="card-header"><a href='/experiences/<%= e.id %>'><%= e.description %></a></div>
-          <div class="card-body" style="padding: 10px"><%= e.country.name %></div>
-        </div>
-      </div>
-    <% end %>
+  <% if Experience.all.empty? %>
+    <div class="text-center"><p>There are no travel lists - be the first!</p>
+    <p><a class="btn btn-success" style="margin: 20px" href="/experiences/new" role="button">Add a New Experience to my Travel List</a></div>
+  <% else %>
+    <div class="row">
+      <a class="btn btn-success" style="margin: 20px" href="/experiences" role="button">< Back to My Travel List</a>
+      <a class="btn btn-info" style="margin: 20px" href="/countries" role="button">View All By Country</a>
+      <a class="btn btn-info" style="margin: 20px" href="/categories" role="button">View All By Category</a>
+    </div>
   <% end %>
-</div>
+  <div class="row">
+    <% Experience.all.each do |e| %>
+      <% unless e.user_id == @user.id %>
+        <div class="card" style="width: 15rem; margin: 20px">
+          <div class="text-center">
+            <div class="card-header"><a href='/experiences/<%= e.id %>'><%= e.description %></a></div>
+            <div class="card-body" style="padding: 10px"><%= e.country.name %></div>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</body>
