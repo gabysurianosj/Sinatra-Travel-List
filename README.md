@@ -4,17 +4,18 @@
 
 My travel list is an application created to keep track of your travel wish list. Inspired by the movie [The Bucket List](https://www.youtube.com/watch?v=vc3mkG21ob4) and the developer's love for traveling, the app aims to enable its users to add wish destinations and new adventures, and even get inspired by others!
 
-For more information on how to use the app, watch this [video].
+For more information on how to use the app, watch this [video]. And for more information on how this app was created, you can view my [blogpost](https://gabysurianosj.github.io/sinatra_portfolio_project_my_travel_list). 
 
 ## Installation
 
 1. Clone this repo
-2. In your terminal, run:
+2. In your terminal, run: `bundle install`
+3. In your terminal, run:
 `rake db:migrate`
-3. Then in your terminal, run:
+4. Then in your terminal, run:
 `shotgun`
-4. Open your browser and copy and paste the # outlined here:`Your server is running at XXX.XXX.XXX.XX:XXXXX`
-5. Create your travel list! 
+5. Open your browser and copy and paste the # outlined here:`Your server is running at XXX.XXX.XXX.XX:XXXXX`
+6. Create your travel list! 
 
 ## Contributing
 
