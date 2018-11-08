@@ -37,3 +37,9 @@ p, div {
 .header img {
   width: 97.5%;
 }
+
+.content-bkgd {
+  background-image:url('/img/content-bkgd.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
