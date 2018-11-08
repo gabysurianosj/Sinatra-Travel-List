@@ -9,6 +9,7 @@ For more information on how to use the app, watch this [video]. And for more inf
 ## Installation
 
 1. Clone this repo
+2. Change directory into local repo by: `cd Sinatra-Travel-List`
 2. In your terminal, run: `bundle install`
 3. In your terminal, run:
 `rake db:migrate`
