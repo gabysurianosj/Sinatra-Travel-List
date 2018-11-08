@@ -1,5 +1,10 @@
 <body class="content-bkgd-2">
-  <h1 class="display-3">All Experiences from <%= @category.name %></h1>
+  <div class="header-contents">
+    <div class="text-center">
+      <h1> All Experiences for <%= @category.name %></h1>
+    </div>
+  </div>
+
   <div class="row">
     <% @category.experiences.each do |exp| %>
       <div class="card" style="width: 15rem; margin: 20px">

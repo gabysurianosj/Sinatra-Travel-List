@@ -49,3 +49,11 @@ p, div {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.header-contents h1 {
+    height:60px;
+    background:#F9C63B;
+    border:1px solid #F9C63B;
+    width:cover;
+    margin:20px;
+}

@@ -1,5 +1,10 @@
 <body class="content-bkgd-2">
-<h1>View all Experiences by Category</h1>
+  <div class="header-contents">
+    <div class="text-center">
+      <h1>View all Experiences by Category</h1>
+    </div>
+  </div>
+  
 <div class="list-group">
   <% @categories.each do |category| %>
     <% if !category.experiences.empty? %>
