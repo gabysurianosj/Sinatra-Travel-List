@@ -4,7 +4,7 @@
 
 My travel list is an application created to keep track of your travel wish list. Inspired by the movie [The Bucket List](https://www.youtube.com/watch?v=vc3mkG21ob4) and the developer's love for traveling, the app aims to enable its users to add wish destinations and new adventures, and even get inspired by others!
 
-For more information on how to use the app, watch this [video]. And for more information on how this app was created, you can view my [blogpost](https://gabysurianosj.github.io/sinatra_portfolio_project_my_travel_list). 
+For more information on how to use the app, watch this [video](https://youtu.be/qfRlz8XUFj8). And for more information on how this app was created, you can view my [blogpost](https://gabysurianosj.github.io/sinatra_portfolio_project_my_travel_list). 
 
 ## Installation
 
